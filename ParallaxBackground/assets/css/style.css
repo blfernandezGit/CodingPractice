@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background: black;
+}
+
+#canvas1 {
+    height: 83.125vmin;
+    width: 95vmin;
+    max-height: 43.75rem;
+    max-width: 50rem;
+}
+
+#container {
+    width: 95vmin;
+    max-width: 50rem;
+    color: white;
+    font-size: 25px;
+}
+
+#slider {
+    width: 100%
+}

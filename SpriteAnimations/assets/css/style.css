@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+#canvas1 {
+    height: 90vmin;
+    width: 90vmin;
+    max-height: 37.5rem;
+    max-width: 37.5rem;
+}
+
+.controls, select, option {
+    z-index: 10;
+    font-size: 1.5rem;
+}
