@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+#canvas1 {
+    border: 3px solid black;
+    background: #000;
+    height: 91%;
+    width: 65%;
+    max-height: 43.75rem;
+    max-width: 31.25rem;
+}
